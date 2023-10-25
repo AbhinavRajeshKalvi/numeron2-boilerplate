@@ -98,7 +98,7 @@ function gameOver(){
 
 //divide operator
 divide.onclick = () =>{
-    if(number1 / number2 == number3){
+    if(Math.floor(number1 / number2) == number3){
         score++
         randomise()
         console.log(score)
